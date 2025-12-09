@@ -4,9 +4,17 @@ a timer with:
 3. customizable interface(font,opacity,colors(accented and main))
 4. time overflow logic added
 
+![Minimal Goth](screenshots/minimal goth.png)
+
+![Plain](screenshots/plain.png)
+
+![Terminal Feel](screenshots/terminal feel.png)
+
+![Timer In Action](screenshots/timer in action.png)
+
 My way of using it is using a autohotkey script to launch a .bat file that runs the python file. 
 (for plain testing purpose just download the timer.py and open it in vs code and click run)
-
+'''
 The code for the mentioned script is::
 #Requires AutoHotkey v2.0
 #SingleInstance Force
@@ -55,3 +63,4 @@ RunPythonApp(key) {
         Run(cmd, projectFolder)
     }
 }
+'''
