@@ -16,9 +16,11 @@ a timer with:
 
 My way of using it is using a autohotkey script to launch a .bat file that runs the python file. 
 (for plain testing purpose just download the timer.py and open it in vs code and click run)
+
 The code for the mentioned script is::
+
 ---
-'''
+```
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
@@ -66,4 +68,4 @@ RunPythonApp(key) {
         Run(cmd, projectFolder)
     }
 }
-'''
+```
